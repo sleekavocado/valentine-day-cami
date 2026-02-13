@@ -61,8 +61,8 @@ document.querySelector('.yes-btn').addEventListener('click', function() {
     });
 
     finalQuestion.innerHTML = 
-        "<h2>Ehehe. Lo sapevo… ma sentirlo fa un altro effetto. Ti ho appena</h2>" +
-        "<p>appena mandato un super abbraccione! Buon San Valentino uaje!</p>" +
+        "<h2>Ehehe. Lo sapevo… ma sentirlo fa un altro effetto.</h2>" +
+        "<p>Ti ho appena mandato un super abbraccione! Buon San Valentino uaje!</p>" +
         "<div style='margin-top: 2rem; font-size: 3rem'>💞🌟</div>";
 });
 
@@ -80,5 +80,6 @@ document.querySelector('.no-btn').addEventListener('mouseover', function() {
 createParticles();
 
 setTimeout(showNextMessage, 1000);
+
 
 
