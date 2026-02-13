@@ -12,7 +12,7 @@
             particle.style.left = Math.random() * 100 + '%';
             particle.style.animationDuration = Math.random() * 3 + 3 + 's';
             container.appendChild(particle);
-            setTimeout(() => particle.remove(), 6000);
+            setTimeout(() => particle.remove(), 7000);
             lastTime = timestamp;
         }
         requestAnimationFrame(animate);
@@ -80,4 +80,5 @@ document.querySelector('.no-btn').addEventListener('mouseover', function() {
 createParticles();
 
 setTimeout(showNextMessage, 1000);
+
 
