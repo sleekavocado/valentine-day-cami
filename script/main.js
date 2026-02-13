@@ -34,7 +34,7 @@ function showNextMessage() {
         if (currentMessage < messages.length) {
             messages[currentMessage].classList.add('active');
             currentMessage++;
-            setTimeout(showNextMessage, 3000);
+            setTimeout(showNextMessage, 6000);
         } else {
             finalQuestion.style.display = 'block';
             finalQuestion.style.opacity = '1';
@@ -80,3 +80,4 @@ document.querySelector('.no-btn').addEventListener('mouseover', function() {
 createParticles();
 
 setTimeout(showNextMessage, 1000);
+
