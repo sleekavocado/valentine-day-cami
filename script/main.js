@@ -61,8 +61,8 @@ document.querySelector('.yes-btn').addEventListener('click', function() {
     });
 
     finalQuestion.innerHTML = 
-        "<h2>🎉 I know you're my baby boo 💝</h2>" +
-        "<p>You've made my heart explode with joy!</p>" +
+        "<h2>Ehehe. Lo sapevo… ma sentirlo fa un altro effetto. Ti ho appena</h2>" +
+        "<p>appena mandato un super abbraccione! Buon San Valentino uaje!</p>" +
         "<div style='margin-top: 2rem; font-size: 3rem'>💞🌟</div>";
 });
 
@@ -78,4 +78,5 @@ document.querySelector('.no-btn').addEventListener('mouseover', function() {
 
 // Initialize
 createParticles();
+
 setTimeout(showNextMessage, 1000);
